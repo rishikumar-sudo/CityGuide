@@ -29,7 +29,7 @@ import java.util.ArrayList;
 public class UserDashboard extends AppCompatActivity {
     //Variables
     RecyclerView featuredRecycler,mostViewedRecycler, categoriesRecycler;
-    RecyclerView.Adapter adapter;
+    FeaturedAdapter adapter;
     private GradientDrawable gradient1,gradient2,gradient3,gradient4;
 
     //Drawer Menu
@@ -39,6 +39,8 @@ public class UserDashboard extends AppCompatActivity {
     private ImageView imgNavHeaderlogo, img2;
     private TextView txtName, textappname;
     private Toolbar toolbarr;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
